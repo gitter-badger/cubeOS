@@ -4,4 +4,4 @@
 Futuristic Operating System
 
 ## Change Log:
-**12/27/18**: Basic Commands ; Basic UI ; Basic Functionality
+**12/27/18**: basic UI, functionality, etc
