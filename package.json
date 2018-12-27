@@ -1,7 +1,7 @@
 {
-  "name": "cubeX",
+  "name": "cube",
   "version": "1.0.0",
-  "description": "A mini os",
+  "description": "Futuristic Operating System",
   "main": "src/main.js",
   "scripts": {
     "start": "electron ."
