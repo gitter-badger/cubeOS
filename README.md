@@ -1,3 +1,5 @@
+![](https://api.travis-ci.org/rocketbear27/cubeX.svg?branch=master)
+
 # cubeX
 A mini os
 
