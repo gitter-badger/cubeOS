@@ -1,0 +1,2 @@
+# cubeX
+A mini os
