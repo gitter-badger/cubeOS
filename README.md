@@ -3,5 +3,12 @@
 # cube
 Futuristic Operating System
 
+## Downloads
+| OS  | Download  |
+|---|---|---|
+| macOS  |   | 
+| Windows x64 |   |
+| Linux x64 |   |
+
 ## Change Log:
 **12/27/18**: basic UI, functionality, etc
