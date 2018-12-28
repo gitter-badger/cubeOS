@@ -11,7 +11,7 @@ Futuristic Operating System
 1. Download
 2. Extract Files
 
-###Windows x64 
+### Windows x64 
 [Download](https://github.com/rocketbear27/cubeOS/archive/master.zip)
 
 **Instructions**:
