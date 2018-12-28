@@ -4,7 +4,7 @@
   "description": "Futuristic Operating System",
   "main": "src/main.js",
   "scripts": {
-    "build": "rimraf cube-* && electron-packager . --platforms=darwin,win32,linux --arch=x64 --icon=cube",
+    "build": "rimraf cube-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=cube",
     "start": "electron ."
   },
   "repository": {
