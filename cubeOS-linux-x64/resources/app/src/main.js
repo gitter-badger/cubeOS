@@ -5,6 +5,7 @@ const { app, BrowserWindow } = electron;
 let mainWindow = null;
 
 app.on('ready', _ => {
+    console.log('Booting ...');
     mainWindow = new BrowserWindow({
         width: 1200,
         height: 800,
@@ -15,6 +16,6 @@ app.on('ready', _ => {
 
     mainWindow.on('closed', _ => {
         mainWindow = null;
-        console.log('cube OS is closed');
+        console.log('Shutting Down ... ');
     });
 });

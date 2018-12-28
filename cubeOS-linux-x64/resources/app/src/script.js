@@ -2,7 +2,6 @@ document.getElementById("footer").style.visibility = "hidden";
 document.getElementById("settings").style.visibility = "hidden";
 document.getElementById("update").style.visibility = "hidden";
 document.getElementById("browser").style.visibility = "hidden";
-
 var update = false;
 if (update === true) {
     alert("There is a CubeX OOS Update Availible!")
@@ -67,6 +66,7 @@ function openNotifs() {
 function check4Updates() {
     var update = document.getElementById("version").innerHTML = "1.09 BETA";
 }
+
 function resetSettings() {
     alert("Are You Sure You Want To Reset Your Settings?")
     document.body.style.fontFamily = "open sans";
@@ -79,6 +79,7 @@ function notHere() {
 function font_lato() {
     document.body.style.fontFamily = "Lato";
 }
+
 document.getElementById("loader").style.visibility = "hidden";
 
 function signingIn() {

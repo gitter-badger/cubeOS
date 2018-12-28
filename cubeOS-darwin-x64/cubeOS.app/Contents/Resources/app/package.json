@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "build": "rimraf cubeOS-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=cube",
-    "start": "electron ."
+    "test": "electron ."
   },
   "repository": {
     "type": "git",
