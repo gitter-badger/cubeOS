@@ -11,4 +11,6 @@ Futuristic Operating System
 | Linux x64 | _Not Availible_ |
 
 ## Change Log:
+**12/28/18**: Added `/cube-win32-x64`, `/cube-linux-x64`, `/cube-darwin-x64` with installers and instructions
+
 **12/27/18**: basic UI, functionality, etc
