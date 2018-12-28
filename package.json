@@ -1,10 +1,10 @@
 {
-  "name": "cube",
+  "name": "cubeOS",
   "version": "1.0.0",
   "description": "Futuristic Operating System",
   "main": "src/main.js",
   "scripts": {
-    "build": "rimraf cube-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=cube",
+    "build": "rimraf cubeOS-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=cube",
     "start": "electron ."
   },
   "repository": {
@@ -15,9 +15,9 @@
   "author": "RocketBear27",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rocketbear27/cubeX/issues"
+    "url": "https://github.com/rocketbear27/cubeOS/issues"
   },
-  "homepage": "https://github.com/rocketbear27/cubeX#readme",
+  "homepage": "https://github.com/rocketbear27/cubeOS#readme",
   "devDependencies": {
     "electron-packager": "13.0.1",
     "electron-prebuilt": "1.4.13",
