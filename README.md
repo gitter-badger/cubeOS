@@ -7,7 +7,7 @@ Futuristic Operating System
 | OS  | Download  | Instructions |
 |---|---|---|
 | macOS  |   | _Not Availible_ |
-| Windows x64 | [Download](https://github.com/rocketbear27/cube/archive/master.zip) | Download, Extract Files, Run `cube.exe`
+| Windows x64 | [Download](https://github.com/rocketbear27/cube/archive/master.zip) | Download, Extract Files, Open `/cube-win32-x64`, Run `cube.exe`
 | Linux x64 | _Not Availible_ |
 
 ## Change Log:
