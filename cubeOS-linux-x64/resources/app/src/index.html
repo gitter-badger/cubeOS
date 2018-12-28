@@ -1,0 +1,70 @@
+<!-- Add a filesystem -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>cubeOS</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://cdn.glitch.com/34dbdf30-2498-4eda-a578-043e1a42ac2f%2Fcubix.png?1530560564286" rel="icon">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+    <link href="animate.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="animated fadeIn" id="loginPage" style="animation-delay:1s;"><img height="200px" id="guestIcon" src="https://cdn.glitch.com/07877420-7c2a-42f9-97c6-eb892d22d806%2Fguest.png?1531164012100"
+            style="border-radius:100px;" width="200px"><br>
+        <br>
+        <br>
+        <br>
+        <input data-lpignore="true" id="username" placeholder="Username" type="username"><br>
+        <br>
+        <input data-lpignore="true" id="password" placeholder="Password" type="password"><br>
+        <br>
+        <br>
+        <button id="signInButton" onclick="signingIn()" type="submit">Sign In</button><br>
+        <br>
+        <img height="100px" id="loader" src="https://cdn.glitch.com/07877420-7c2a-42f9-97c6-eb892d22d806%2Floader.gif?1531173096684"
+            style="border-radius:100px;" width="100px"></div>
+    <div id="body">
+        <footer id="footer">
+            <a onclick="openCubix()" title="Cubix"><img class="nav-icon" id="cubixBrowser" src="https://cdn.glitch.com/34dbdf30-2498-4eda-a578-043e1a42ac2f%2Fcubix.png?1530560564286"></a><a
+                href="#" title="Settings"><img class="nav-icon" id="setting_icon" onclick="openSettings()" src="https://thimbleprojects.org/rocketbear27/466785/settings.png"></a>
+            <a href="#" title="Notepad"><img class="nav-icon" id="notepad_icon" onclick="openNotepad()" src="https://thimbleprojects.org/rocketbear27/466785/Notes-icon.png"></a><a
+                href="#" title="Click Here for Updates"><img class="nav-icon" id="update_icon" onclick="openUpdates()"
+                    src="https://thimbleprojects.org/rocketbear27/466785/update.png"></a><a href="#" title="Notifications"><img
+                    class="nav-icon" id="notifs" onclick="openNotifs()" src="https://cdn.glitch.com/34dbdf30-2498-4eda-a578-043e1a42ac2f%2FAlecive-Flatwoken-Apps-Notifications.ico?1530480204627"></a>
+        </footer>
+        <div draggable="true" class="window" id="browser"><img height="300px" src="https://cdn.glitch.com/34dbdf30-2498-4eda-a578-043e1a42ac2f%2FScreenshot%20of%20Google.png?1530478952021"
+                width="500px"></div>
+        <div draggable="true" class="window" id="update">
+            <img height="100px" src="https://cdn.glitch.com/34dbdf30-2498-4eda-a578-043e1a42ac2f%2FGoogle_Chrome.png?1530573873069"
+                width="100px"><img height="100px" src="https://cdn.glitch.com/34dbdf30-2498-4eda-a578-043e1a42ac2f%2FFirefox_Quantum.png?1530573871432"
+                width="100px"><img height="100px" src="https://cdn.glitch.com/34dbdf30-2498-4eda-a578-043e1a42ac2f%2FMicrosoft_Edge.png?1530573871533"
+                width="100px"><button onclick="check4Updates()">Update cubeOS</button><br>
+            <br>
+            <p><strong>Version:</strong> <span id="version">1.09 BETA</span></p>
+        </div>
+        <div draggable="true" class="window" id="settings">
+            <h1>cubeOS Settings</h1><br>
+            <hr>
+            <br>
+            <h3>Text Font</h3><br>
+            <br>
+            <button onclick="font_lato()">Text Font Lato</button><br>
+            <br>
+            <hr>
+            <br>
+            <button onclick="resetSettings()">Reset All Settings</button>
+        </div>
+        <div draggable="true" class="window" id="notepad"></div>
+        <div draggable="true" class="window" id="notifications"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
