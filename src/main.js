@@ -15,6 +15,6 @@ app.on('ready', _ => {
 
     mainWindow.on('closed', _ => {
         mainWindow = null;
-        console.log('cubeX OS is closed');
+        console.log('cube OS is closed');
     });
 });
