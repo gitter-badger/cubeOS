@@ -2,6 +2,9 @@
 ![](https://img.shields.io/badge/repo%20size-117.43%20MB-yellow.svg)
 
 # cubeOS
+
+[![Join the chat at https://gitter.im/cube-os/community](https://badges.gitter.im/cube-os/community.svg)](https://gitter.im/cube-os/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Futuristic Operating System
 
 [View the installation guide](https://github.com/rocketbear27/cubeOS/blob/master/INSTALL.md)
