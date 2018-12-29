@@ -1,3 +1,7 @@
 /cubeOS-win32-x64 filter=lfs diff=lfs merge=lfs -text
 /cubeOS-linux-x64 filter=lfs diff=lfs merge=lfs -text
 /cubeOS-darwin-x64 filter=lfs diff=lfs merge=lfs -text
+package-lock.json filter=lfs diff=lfs merge=lfs -text
+cube.icns filter=lfs diff=lfs merge=lfs -text
+cube.png filter=lfs diff=lfs merge=lfs -text
+cube.ico filter=lfs diff=lfs merge=lfs -text
