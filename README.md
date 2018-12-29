@@ -16,7 +16,7 @@ Futuristic Operating System
 ## Change Log:
 **12/28/18**: Added `/cubeOS-win32-x64`, `/cubeOS-linux-x64`, `/cubeOS-darwin-x64` with installers and instructions ; Initializing Gulp for minify code
 
-**12/27/18**: basic UI, functionality, etc
+**12/27/18**: basic UI, functionality
 
 ## Future Pieces
 1. Fix Styles `/dist/style.css` and content `/dist/index.html` after minification 
