@@ -3,31 +3,16 @@
 # cubeOS
 Futuristic Operating System
 
-## Downloads
-### macOS:
-[Download](https://github.com/rocketbear27/cubeOS/archive/master.zip)
+[View the installation guide](https://github.com/rocketbear27/cubeOS/blob/master/INSTALL.md)
 
-**Instructions**: 
-1. Download
-2. Extract Files
+## Commands
+`gulp css html`: Minify CSS and HTML files to the folder `dist`
 
-### Windows x64 
-[Download](https://github.com/rocketbear27/cubeOS/archive/master.zip)
+`npm start`: A developer version of the app 
 
-**Instructions**:
-1. Download
-2. Extract Files
-3. Open `/cubeOS-win32-x64`
-4. Run `cubeOS.exe`
-
-### Linux x64
-[Download](https://github.com/rocketbear27/cubeOS/archive/master.zip) 
-
-**Instructions**: 
-1. Download
-2. 
+`npm run build`: Create installers and code for all 64-bit Linux, Windows, and macOS distributions
 
 ## Change Log:
-**12/28/18**: Added `/cubeOS-win32-x64`, `/cubeOS-linux-x64`, `/cubeOS-darwin-x64` with installers and instructions
+**12/28/18**: Added `/cubeOS-win32-x64`, `/cubeOS-linux-x64`, `/cubeOS-darwin-x64` with installers and instructions ; Initializing Gulp for minify code
 
 **12/27/18**: basic UI, functionality, etc

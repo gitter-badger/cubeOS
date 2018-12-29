@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "build": "rimraf cubeOS-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=cube",
-    "test": "electron ."
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   "devDependencies": {
     "electron-packager": "13.0.1",
     "electron-prebuilt": "1.4.13",
+    "gulp": "4.0.0",
+    "gulp-clean-css": "4.0.0",
+    "gulp-htmlmin": "5.0.1",
     "rimraf": "2.6.2"
   }
 }
